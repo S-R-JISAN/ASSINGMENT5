@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Sale</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/b74eff5433.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <!-- ------------banner------------- -->
+         <div class="bg-orange-100 h-3/4 flex justify-center gap-20">
+            <div class="py-44">
+                <p class="text-center">---SALE FEVER---</p>
+                <h1 class="text-4xl font-bold text-center mt-4">Purchase TK 200 or <br>
+                    above & get <span class="text-pink-600">20% off</span>
+                </h1>
+                <p class="text-center font-bold mt-10 flex gap-5 justify-center"><span class="mt-3">Use Promo Code</span>
+                <button class="btn btn-secondary text-xl">SELL200</button>
+            </div>
+            <!-- ----------img--------- -->
+             <div class="">
+                <img class="w-2/3" src="./images/Summer 1.png" alt="" srcset="">
+             </div>
+         </div>
+
+         <!-- -------------card section----------------- -->
+          <div class="flex mb-20 mt-20 justify-center  gap-4">
+
+            <!-- -------------kitchen----------- -->
+          <div>
+              <h1 class="font-bold text-3xl mb-10">kitchenware</h1>
+    <div class="grid lg:grid-cols-3 gap-4 md:grid-cols-2">
+        <!-- ----------card1--- -->
+         <div onclick="card1()" class="card bg-base-100 w-72 shadow-xl">
+            <figure class="bg-gray-200 py-10">
+              <img src="./images/prod1.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+                <p class="text-center">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star-half" style="color: #FFD43B;"></i>
+            </p>
+              <p id="card1-name" class="text-center font-bold text-2xl">K.Accessories</p>
+              <p id="card1-price" class="text-center text-slate-400">39.00 TK</p>
+              </div>
+            </div>
+            <!-- ---------card2------------ -->
+         <div onclick="card2()"  class="card bg-base-100 gap-4 w-72 shadow-xl">
+            <figure class="bg-gray-200 py-10">
+              <img 
+                src="./images/prod2.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+                <p class="text-center">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star-half" style="color: #FFD43B;"></i>
+            </p>
+              <p id="card2-name" class="text-center font-bold text-2xl">K.Accessories</p>
+              <p id="card2-price" class="text-center text-slate-400">25.00 TK</p>
+              </div>
+            </div>
+            <!-- ---------------card3----------- -->
+         <div onclick="card3()" class="card bg-base-100 w-72 gap-4 shadow-xl">
+            <figure class="bg-gray-200 py-10">
+              <img 
+                src="./images/prod3.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+                <p class="text-center">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star-half" style="color: #FFD43B;"></i>
+            </p>
+              <p id="card3-name" class="text-center font-bold text-2xl">Home Cooker</p>
+              <p id="card3-price" class="text-center text-slate-400">49.00 TK</p>
+              </div>
+            </div>
+        
+          </div>
+          <!-- --------------sport-ware-------------- -->
+          <h1 class="font-bold text-3xl mt-10 mb-10">SportWare</h1>
+    <div class="grid lg:grid-cols-3 gap-4 md:grid-cols-2">
+        <!-- ----------card1--- -->
+         <div onclick="card4()" class="card bg-base-100 w-72 shadow-xl">
+            <figure class="bg-gray-200 py-10">
+              <img src="./images/prod4.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+                <p class="text-center">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star-half" style="color: #FFD43B;"></i>
+            </p>
+              <p id="card4-name" class="text-center font-bold text-2xl">Sport Black Cap</p>
+              <p id="card4-price" class="text-center text-slate-400">49.00 TK</p>
+              </div>
+            </div>
+            <!-- ---------card2------------ -->
+         <div onclick="card5()" class="card bg-base-100 gap-4 w-72 shadow-xl">
+            <figure class="bg-gray-200 py-10">
+              <img 
+                src="./images/prod5.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+                <p class="text-center">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star-half" style="color: #FFD43B;"></i>
+            </p>
+              <p id="card5-name" class="text-center font-bold text-2xl">Full Jersey Set</p>
+              <p id="card5-price" class="text-center text-slate-400">69.00 TK</p>
+              </div>
+            </div>
+            <!-- ---------------card3----------- -->
+         <div onclick="card6()" class="card bg-base-100 w-72 gap-4 shadow-xl">
+            <figure class="bg-gray-200 py-10">
+              <img 
+                src="./images/prod6.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+                <p class="text-center">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-regular fa-star-half" style="color: #FFD43B;"></i>
+            </p>
+              <p id="card6-name" class="text-center font-bold text-2xl">Sport Cates</p>
+              <p id="card6-price" class="text-center text-slate-400">159.00 TK</p>
+              </div>
+            </div>
+        
+          </div>
+
+        <!-- --------------Furniture--- -->
+        <h1 class="font-bold text-3xl mt-10 mb-10">Furniture</h1>
+          <div class="grid lg:grid-cols-3 gap-4 md:grid-cols-2">
+            <!-- ----------card1--- -->
+             <div onclick="card7()" class="card bg-base-100 w-72 shadow-xl">
+                <figure class="bg-gray-200 py-10">
+                  <img src="./images/prod7.png" alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <p class="text-center">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star-half" style="color: #FFD43B;"></i>
+                </p>
+                  <p id="card7-name" class="text-center font-bold text-2xl">Single relax chair</p>
+                  <p id="card7-price" class="text-center text-slate-400">185.00 TK</p>
+                  </div>
+                </div>
+                <!-- ---------card2------------ -->
+             <div onclick="card8()" class="card bg-base-100 gap-4 w-72 shadow-xl">
+                <figure class="bg-gray-200 py-10">
+                  <img 
+                    src="./images/prod8.png"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <p class="text-center">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star-half" style="color: #FFD43B;"></i>
+                </p>
+                  <p id="card8-name" class="text-center font-bold text-2xl">Children play</p>
+                  <p id="card8-price" class="text-center text-slate-400">299.00 TK</p>
+                  </div>
+                </div>
+                <!-- ---------------card3----------- -->
+             <div onclick="card9()" class="card bg-base-100 w-72 gap-4 shadow-xl">
+                <figure class="bg-gray-200 py-10">
+                  <img 
+                    src="./images/prod9.png"-
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <p class="text-center">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star-half" style="color: #FFD43B;"></i>
+                </p>
+                  <p id="card9-name" class="text-center font-bold text-2xl">Flexible Sofa</p>
+                  <p id="card9-price" class="text-center text-slate-400">339.00 TK</p>
+                  </div>
+                </div>
+            
+              </div>
+    </div>
+    <!-- ----------purchase section--------/ -->
+    <div class="">
+      <div class="mt-16 bg-gray-100 p-7 rounded-lg">
+        <h1 class="font-bold text-xl mb-4">Have coupon?</h1>
+        <input id="coupon-input" class="border-2 p-2" type="text" placeholder="coupon code">
+        <button disabled id="coupon-btn" class="btn btn-secondary gap-0">Apply</button>
+      </div>
+      <div class="bg-gray-50 h-2/5 p-7 mt-8 rounded-lg">
+        <div class="h-1/2">
+        <div id="display-name" class="font-bold text-xl">
+
+        </div>
+        </div>
+        <hr>
+        <span class="h-1/2" id="">
+          <p class="font-semibold text-xl my-4">Total Price: <span id="total-price"></span></p>
+          <p class="font-semibold text-xl my-4">Discount: <span id="discount"></span></p>
+          <p class="font-semibold text-xl my-4">Total: <span id="total"></span></p>
+        </span>
+        <button onclick="my_modal_5.showModal()" id="Purchase-btn" class="btn btn-secondary font-bold text-xl mx-10 ">Make Purchase</button>
+      </div>
+
+    </div>
+          </div>
+        </div>
+        <!-- Open the modal using ID.showModal() method -->
+          <!-- <button class="btn" open modal</button> -->
+          <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <img class="mx-auto" src="./images/congo.png" alt="">
+    <h3 class="text-2xl text-center font-bold">Congratulation</h3>
+    <p class="py-4  text-center">You Purchase The Product</p>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button id="close" class="btn btn-secondary">Go Home</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+    </main>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
